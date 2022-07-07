@@ -1,0 +1,238 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.header {
+  width: 100%;
+  height: 7rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  gap: 3rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.navitem:hover {
+  color: rgb(27, 175, 27);
+  cursor: pointer;
+}
+.image {
+  width: 15rem;
+  height: 5rem;
+  margin-left: 10%;
+  margin-top: 1rem;
+}
+.container1 {
+  width: 100%;
+  height: 60rem;
+  background: url("bubbles-dktp.svg") center center / 100% 927px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166))
+      rgb(108, 14, 224);
+}
+.imageframe {
+  display: inline-block;
+  position: relative;
+  transform: scale(1.2);
+  margin-top: 8%;
+  margin-left: 10%;
+  z-index: 3;
+}
+
+.image2 {
+  position: absolute;
+  left: 28%;
+  top: 12.5%;
+}
+.textbox {
+  display: inline-flex;
+  flex-direction: column;
+  transform: translate(-1rem, -150%);
+}
+.textdata {
+  color: white;
+  font-size: 6rem;
+  font-weight: 750;
+}
+.button1 {
+  padding: 15px 5px 3px 5px;
+  text-decoration: none;
+  color: black;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 550;
+}
+.button1:hover {
+  transform: scale(1.05);
+}
+.container2 {
+  width: 100%;
+  height: 20rem;
+  position: absolute;
+  z-index: 5;
+  background-color: white;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 35%;
+  width: 100%;
+  height: 45rem;
+  background: linear-gradient(180deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166))
+    rgb(108, 14, 224);
+}
+.container4 {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  background-color: white;
+}
+.container5 {
+  width: 100%;
+  height: 40rem;
+  background: url("bubbles-dktp.svg") center center / 100% 927px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166))
+      rgb(108, 14, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.container6 {
+  width: 100%;
+  height: 50rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentheader1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+.listitems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  text-align: center;
+  margin-left: 8%;
+}
+.listimg {
+  transform: scale(0.8);
+}
+.container2heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.container2sub {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.container3heading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.container4heading {
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgb(17, 16, 16);
+  text-align: center;
+}
+.box1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 110rem;
+  height: 6rem;
+  align-content: center;
+  margin-left: 10%;
+}
+.listbox {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.listbox:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.anchor {
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+}
+.arrow {
+  font-size: 1.5rem;
+}
+.container5heading {
+  font-size: 8rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.symb1 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 12px;
+}
+.symbols {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.company {
+  list-style: none;
+}
+.foothead {
+  margin-top: 60%;
+  font-size: 1.2rem;
+  color: grey;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.items {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
